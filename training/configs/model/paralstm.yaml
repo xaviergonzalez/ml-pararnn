@@ -1,0 +1,11 @@
+name: paralstm
+arch: paralstm
+d_model: 2048
+n_layers: 24
+n_heads: 4
+vocab_size: 32000
+mode: parallel_FUSED
+norm_clip: 0.5
+init_B: kaiming_uniform
+init_A: xavier_gaussian
+init_b: constant_zero

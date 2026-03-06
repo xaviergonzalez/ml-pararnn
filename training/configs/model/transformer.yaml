@@ -1,0 +1,6 @@
+name: transformer
+arch: transformer
+d_model: 2048
+n_layers: 24
+n_heads: 16
+vocab_size: 32000

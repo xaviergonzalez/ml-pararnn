@@ -1,0 +1,7 @@
+name: slimpajama
+path: cerebras/SlimPajama-627B
+# Remove Books3 split as per the paper (copyrighted material)
+exclude_sources:
+  - Book
+cache_dir: /projects/m000120/xavier18/datasets/slimpajama
+tokenizer: EleutherAI/gpt-neox-20b
